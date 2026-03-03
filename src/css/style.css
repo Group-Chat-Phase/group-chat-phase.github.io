@@ -116,7 +116,7 @@ h1 {
 }
 
 /* TEST FOR GRAYSCALE VS AUTOFILTER */
-product-img-test {
+.product-img-test {
   width: 100%;
   aspect-ratio: 3 / 4; /* Tall fashion aspect ratio */
   object-fit: cover;
