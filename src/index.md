@@ -46,16 +46,16 @@ title: Metrose Drop 01
 <div class="product-card">
   <img src="/images/HOLE.jpg" alt="contrast1" class="product-img">
 </div>
-<div class="product-card">
+<div class="product-card full-width">
   <img src="/images/Artifacts.jpg" alt="contrast1" class="product-img-landscape">
 </div>
-<div class="product-card">
+<div class="product-card full-width">
   <img src="/images/ARTIFACTS2.jpg" alt="contrast1" class="product-img-landscape">
 </div>
-<div class="product-card">
+<div class="product-card full-width">
   <img src="/images/BOX.jpg" alt="contrast1" class="product-img-landscape">
 </div>
-<div class="product-card">
+<div class="product-card full-width">
   <img src="/images/MIRROR.jpg" alt="contrast1" class="product-img-landscape">
 </div>
 <div class="product-card">
@@ -64,7 +64,7 @@ title: Metrose Drop 01
 <div class="product-card">
   <img src="/images/ROAD.jpg" alt="contrast1" class="product-img">
 </div>
-<div class="product-card">
+<div class="product-card full-width">
   <img src="/images/STAR_WARS.jpg" alt="contrast1" class="product-img-landscape">
 </div>
 <div class="product-card">
