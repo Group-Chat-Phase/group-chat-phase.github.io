@@ -135,7 +135,6 @@ h1 {
   width: 100%;
   aspect-ratio: unset;       /* Don't force any crop */
   height: auto;              /* Let the natural height breathe */
-  max-height: 60vh;
   object-fit: cover;
   filter: sepia(0) saturate(1) hue-rotate(0deg) brightness(1);
   transition: filter 0.6s cubic-bezier(0.16, 1, 0.3, 1);
