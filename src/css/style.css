@@ -101,14 +101,31 @@ h1 {
   width: 100%;
   aspect-ratio: 3 / 4; /* Tall fashion aspect ratio */
   object-fit: cover;
-  filter: grayscale(100%); /* Desaturated look */
+  filter: grayscale(0%); /* Desaturated look */
   transition: filter 0.6s cubic-bezier(0.16, 1, 0.3, 1);
   margin-bottom: 15px;
   background-color: #1a1a1a; /* Placeholder color while loading */
 }
 
 .product-card:hover .product-img {
-  filter: grayscale(0%); /* Color comes back on hover */
+  filter: sepia(1) saturate(4) hue-rotate(255deg) brightness(0.6); /* Color comes back on hover */
+}
+
+/* LANDSCAPE IMAGE VARIANT */
+.product-img-landscape {
+  width: 100%;
+  aspect-ratio: unset;       /* Don't force any crop */
+  height: auto;              /* Let the natural height breathe */
+  object-fit: cover;
+  filter: grayscale(0%);
+  transition: filter 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  margin-bottom: 15px;
+  background-color: #1a1a1a;
+  display: block;
+}
+
+.product-card:hover .product-img-landscape {
+  filter: sepia(1) saturate(4) hue-rotate(255deg) brightness(0.6);
 }
 
 .product-card h3 {
@@ -122,6 +139,8 @@ h1 {
   font-size: 11px;
   color: #666;
 }
+
+
 
 /* 5. FOOTER */
 footer {
