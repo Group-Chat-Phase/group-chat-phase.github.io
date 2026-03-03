@@ -17,12 +17,17 @@ title: Metrose Drop 01
   <span>pink1</span>
 </div>
 <div class="product-card">
-  <img src="/images/item1.jpg" alt="contrast1" class="product-img">
-  <h3>contrast1</h3>
-  <span>contrast1</span>
+  <img src="/images/MALL_PINK3.jpg" alt="contrast1" class="product-img">
+  <h3>pink1 mall</h3>
+  <span>pink1 mall</span>
 </div>
 <div class="product-card">
   <img src="/images/ORB_PINK2.jpg" alt="contrast1" class="product-img">
   <h3>Pink2</h3>
   <span>Pink2</span>
+</div>
+<div class="product-card">
+  <img src="/images/item1.jpg" alt="contrast1" class="product-img">
+  <h3>contrast1</h3>
+  <span>contrast1</span>
 </div>
