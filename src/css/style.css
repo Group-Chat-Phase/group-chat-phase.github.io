@@ -97,18 +97,22 @@ h1 {
   margin-bottom: 40px;
 }
 
+.full-width {
+  grid-column: 1 / -1;
+}
+
 .product-img {
   width: 100%;
   aspect-ratio: 3 / 4; /* Tall fashion aspect ratio */
   object-fit: cover;
-  filter: grayscale(0%); /* Desaturated look */
+  filter: grayscale(100%); /* Desaturated look */
   transition: filter 0.6s cubic-bezier(0.16, 1, 0.3, 1);
   margin-bottom: 15px;
   background-color: #1a1a1a; /* Placeholder color while loading */
 }
 
 .product-card:hover .product-img {
-  filter: sepia(1) saturate(4) hue-rotate(255deg) brightness(0.6); /* Color comes back on hover */
+  filter: grayscale(100%) /* Color comes back on hover */
 }
 
 /* LANDSCAPE IMAGE VARIANT */
@@ -116,8 +120,9 @@ h1 {
   width: 100%;
   aspect-ratio: unset;       /* Don't force any crop */
   height: auto;              /* Let the natural height breathe */
+  max-height: 60vh
   object-fit: cover;
-  filter: grayscale(0%);
+  filter: grayscale(100%);
   transition: filter 0.6s cubic-bezier(0.16, 1, 0.3, 1);
   margin-bottom: 15px;
   background-color: #1a1a1a;
@@ -125,7 +130,7 @@ h1 {
 }
 
 .product-card:hover .product-img-landscape {
-  filter: sepia(1) saturate(4) hue-rotate(255deg) brightness(0.6);
+  filter: grayscale(100%)
 }
 
 .product-card h3 {
