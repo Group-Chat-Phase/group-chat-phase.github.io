@@ -16,3 +16,8 @@ title: Metrose Drop 01
   <h3>contrast1</h3>
   <span>contrast1</span>
 </div>
+<div class="product-card">
+  <img src="/images/item1.jpg" alt="contrast1" class="product-img">
+  <h3>contrast1</h3>
+  <span>contrast1</span>
+</div>
