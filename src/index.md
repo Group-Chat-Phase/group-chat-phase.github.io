@@ -21,3 +21,8 @@ title: Metrose Drop 01
   <h3>contrast1</h3>
   <span>contrast1</span>
 </div>
+<div class="product-card">
+  <img src="/images/ORB_PINK2.jpg" alt="contrast1" class="product-img">
+  <h3>Pink2</h3>
+  <span>Pink2</span>
+</div>
