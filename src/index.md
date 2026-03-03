@@ -12,7 +12,7 @@ title: Metrose Drop 01
 
 <section class="grid-section">
 <div class="product-card">
-  <img src="/images/PINK1.jpg" alt="contrast1" class="product-img">
+  <img src="/images/ORB_PINK3.jpg" alt="contrast1" class="product-img">
   <h3>pink1</h3>
   <span>pink1</span>
 </div>
