@@ -97,7 +97,4 @@ title: Metrose Drop 01
 <div class="product-card">
   <img src="/images/leo9.jpg" alt="contrast1" class="product-img">
 </div>
-<div class="product-card">
-  <img src="/images/leo1.jpg" alt="contrast1" class="product-img">
-</div>
 </section>
