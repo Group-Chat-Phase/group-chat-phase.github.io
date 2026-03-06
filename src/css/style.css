@@ -125,6 +125,8 @@ h1 {
 }
 
 .product-img {
+  position: relative;
+  z-index: 1;          
   width: 100%;
   aspect-ratio: unset; /* Tall fashion aspect ratio */
   object-fit: cover;
