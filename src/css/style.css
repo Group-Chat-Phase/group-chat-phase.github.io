@@ -185,10 +185,21 @@ footer {
 /* RESPONSIVE FOR MOBILE */
 @media (max-width: 768px) {
   .grid-section {
-    grid-template-columns: 1fr; /* Single column on phones */
+    grid-template-columns: repeat(2, 1fr); /* ← two columns on mobile */
   }
   header {
     padding: 20px;
+    flex-wrap: nowrap; /* ← forces nav onto one line */
+    overflow: hidden;
+  }
+  nav ul {
+    gap: 15px; /* ← tighten gap so it fits */
+  }
+  nav a {
+    font-size: 9px; /* ← shrink text slightly to fit */
+  }
+  .logo a {
+    font-size: 1.1rem; /* ← shrink logo slightly */
   }
 }
 
