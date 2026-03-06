@@ -105,6 +105,9 @@ title: Metrose Drop 01
   <img src="/images/TOPDOWN_CHICAGO.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card">
+  <img src="/images/enoshimakite1.jpg" alt="contrast1" class="product-img">
+</div>
+<div class="product-card">
   <img src="/images/WALLS.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card">
