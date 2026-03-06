@@ -199,4 +199,10 @@ footer {
     object-fit: contain; /* ← full photo always visible */
     background-color: #000
   }
+
+  .product-img-landscape {
+    max-height: 95vh;
+    object-fit: contain; /* ← full photo always visible */
+    background-color: #000
+  }
 }
