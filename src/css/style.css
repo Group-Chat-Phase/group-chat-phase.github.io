@@ -101,7 +101,6 @@ h1 {
 .product-card::after {
   content: '';
   position: absolute;
-  z-index: 0; /* ← overlay sits behind the image */
   top: 0;
   left: 0;
   width: 100%;
