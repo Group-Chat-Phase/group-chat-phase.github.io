@@ -92,12 +92,12 @@ title: Metrose Drop 01
   <img src="/images/leo7.jpg" alt="contrast1" class="product-img-landscape">
 </div>
 <div class="product-card">
-  <img src="/images/leo1.jpg" alt="contrast1" class="product-img">
-</div>
-<div class="product-card">
   <img src="/images/leo8.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card">
   <img src="/images/leo9.jpg" alt="contrast1" class="product-img">
+</div>
+<div class="product-card">
+  <img src="/images/leo1.jpg" alt="contrast1" class="product-img">
 </div>
 </section>
