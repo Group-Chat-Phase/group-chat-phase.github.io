@@ -73,4 +73,7 @@ title: Metrose Drop 01
 <div class="product-card">
   <img src="/images/WAVES.jpg" alt="contrast1" class="product-img">
 </div>
+<div class="product-card full-width">
+  <img src="/images/leo3.jpg" alt="contrast1" class="product-img-landscape">
+</div>
 </section>
