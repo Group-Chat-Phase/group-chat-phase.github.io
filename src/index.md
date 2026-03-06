@@ -16,8 +16,8 @@ title: Metrose Drop 01
   <h3>pink1</h3>
   <span>pink1</span>
   </div>
-<div class="product-card">
-  <img src="/images/enoshimakite.jpg" alt="contrast1" class="product-img">
+<div class="product-card full-width">
+  <img src="/images/enoshimakite.jpg" alt="contrast1" class="product-img-landscape">
   <h3>pink1</h3>
   <span>pink1</span>
 </div>
