@@ -106,7 +106,7 @@ h1 {
   width: 100%;
   height: calc(100% - 15px); /* accounts for margin-bottom on img */
   background-color: #801d95;
-  mix-blend-mode: multiply;
+  mix-blend-mode: color;
   opacity: 0;
   transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1);
   pointer-events: none; /* so it doesn't block hover/clicks */
