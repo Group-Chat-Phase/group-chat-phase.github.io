@@ -191,3 +191,10 @@ footer {
     padding: 20px;
   }
 }
+
+@media (min-width: 769px) {
+  .product-img {
+    max-height: 95vh;
+    object-fit: contain; /* ← full photo always visible */
+  }
+}
