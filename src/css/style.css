@@ -95,6 +95,25 @@ h1 {
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
+  position: relative;
+}
+
+.product-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 15px); /* accounts for margin-bottom on img */
+  background-color: #801d95;
+  mix-blend-mode: hue;
+  opacity: 0;
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none; /* so it doesn't block hover/clicks */
+}
+
+.product-card:hover::after {
+  opacity: 1;
 }
 
 .full-width {
@@ -105,14 +124,10 @@ h1 {
   width: 100%;
   aspect-ratio: unset; /* Tall fashion aspect ratio */
   object-fit: cover;
-  filter: sepia(0) saturate(1) hue-rotate(0deg) brightness(1); /* Desaturated look */
-  transition: filter 0.3s cubic-bezier(0.7, 0, 1, 1);
+  filter: none; /* Desaturated look */
+  transition: none;
   margin-bottom: 15px;
   background-color: #1a1a1a; /* Placeholder color while loading */
-}
-
-.product-card:hover .product-img {
-  filter: sepia(1) saturate(4) hue-rotate(255deg) brightness(0.6);/* Pink filter on hover */
 }
 
 /* TEST FOR GRAYSCALE VS AUTOFILTER */
