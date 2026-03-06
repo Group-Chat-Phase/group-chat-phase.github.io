@@ -78,16 +78,10 @@ title: Metrose Drop 01
   <img src="/images/leo4.jpg" alt="contrast1" class="product-img-landscape">
 </div>
 <div class="product-card full-width">
-  <img src="/images/leo5.jpg" alt="contrast1" class="product-img-landscape">
-</div>
-<div class="product-card full-width">
   <img src="/images/leo6.jpg" alt="contrast1" class="product-img-landscape">
 </div>
 <div class="product-card full-width">
   <img src="/images/leo7.jpg" alt="contrast1" class="product-img-landscape">
-</div>
-<div class="product-card">
-  <img src="/images/leo8.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card">
   <img src="/images/leo9.jpg" alt="contrast1" class="product-img">
@@ -126,18 +120,12 @@ title: Metrose Drop 01
   <img src="/images/leo14.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card">
-  <img src="/images/leo15.jpg" alt="contrast1" class="product-img">
-</div>
-<div class="product-card">
-  <img src="/images/leo16.jpg" alt="contrast1" class="product-img">
-</div>
-<div class="product-card">
-  <img src="/images/leo17.jpg" alt="contrast1" class="product-img">
-</div>
-<div class="product-card">
   <img src="/images/leo18.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card">
   <img src="/images/leo19.jpg" alt="contrast1" class="product-img">
+</div>
+<div class="product-card">
+  <img src="/images/leo8.jpg" alt="contrast1" class="product-img">
 </div>
 </section>
