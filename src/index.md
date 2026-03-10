@@ -25,7 +25,7 @@ title: Metrose Drop 01
   <span>pink1</span>
 </div>
 <div class="product-card full-width">
-  <img src="/images/MALL.jpg" alt="contrast1" class="product-img-landscape">
+  <img src="/images/MALL_OG_EDITED.jpg" alt="contrast1" class="product-img-landscape">
   <h3>pink1 mall</h3>
   <span>pink1 mall</span>
 </div>
