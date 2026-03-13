@@ -82,7 +82,36 @@ h1 {
   letter-spacing: 2px;
 }
 
-/* 4. PRODUCT GRID & IMAGES */
+/* 4. EDITORIAL NOTE */
+.editorial-note {
+  border-top: 1px solid #333;
+  padding: 60px 0;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.editorial-note h2 {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: #444;
+}
+
+.editorial-note p {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #888;
+  letter-spacing: 0.05em;
+  text-transform: none;
+  max-width: 600px;
+}
+
+/* 5. PRODUCT GRID & IMAGES */
 .grid-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns */
