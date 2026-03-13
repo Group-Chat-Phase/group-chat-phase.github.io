@@ -95,7 +95,7 @@ h1 {
 
 .editorial-note h2 {
   font-family: 'Space Mono', monospace;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 0.2em;
   color: #444;
@@ -103,7 +103,7 @@ h1 {
 
 .editorial-note p {
   font-family: 'Inter', sans-serif;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 1.8;
   color: #888;
   letter-spacing: 0.05em;
