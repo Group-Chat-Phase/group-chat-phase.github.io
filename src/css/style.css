@@ -230,6 +230,10 @@ footer {
   .logo a {
     font-size: 1.1rem; /* ← shrink logo slightly */
   }
+    .editorial-note {
+    grid-template-columns: 1fr; /* ← stacks to single column */
+    gap: 20px;
+  }
 }
 
 /*RESPONSIVE FOR DESKTOP*/
@@ -245,10 +249,4 @@ footer {
     object-fit: contain; /* ← full photo always visible */
     background-color: #000
   }
-  
-  .editorial-note {
-    grid-template-columns: 1fr; /* ← stacks to single column */
-    gap: 20px;
-  }
-
 }
