@@ -236,7 +236,7 @@ footer {
     
   }
   .editorial-note p {
-    font-size: 11px; /* ← smaller font on mobile */
+    font-size: 12px; /* ← smaller font on mobile */
   }
   
   main {
