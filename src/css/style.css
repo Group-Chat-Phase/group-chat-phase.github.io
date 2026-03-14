@@ -233,6 +233,14 @@ footer {
     .editorial-note {
     grid-template-columns: 1fr; /* ← stacks to single column */
     gap: 20px;
+    
+  }
+  .editorial-note p {
+    font-size: 11px; /* ← smaller font on mobile */
+  }
+  
+  main {
+    padding: 0 20px; /* ← less side padding on mobile */
   }
 }
 
