@@ -132,7 +132,10 @@ title: GROUP CHAT PHASE
   <img src="/images/IMG_1169.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card">
-  <img src="/images/IMG_2338.jpg" alt="contrast1" class="product-img">
+  <img src="/images/2546.png" alt="contrast1" class="product-img">
+  </div>
+<div class="product-card">
+  <img src="/images/2554.png" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
   <img src="/images/IMG_2356.jpg" alt="contrast1" class="product-img">
@@ -156,10 +159,10 @@ title: GROUP CHAT PHASE
   <img src="/images/IMG_3251.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_3252.jpg" alt="contrast1" class="product-img">
+  <img src="/images/2533.png" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_3272.jpg" alt="contrast1" class="product-img">
+  <img src="/images/2536.png" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
   <img src="/images/IMG_3286.jpg" alt="contrast1" class="product-img">
@@ -181,9 +184,6 @@ title: GROUP CHAT PHASE
   </div>
 <div class="product-card">
   <img src="/images/IMG_3700.jpg" alt="contrast1" class="product-img">
-  </div>
-<div class="product-card">
-  <img src="/images/IMG_3701.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
   <img src="/images/IMG_3907.jpg" alt="contrast1" class="product-img">
