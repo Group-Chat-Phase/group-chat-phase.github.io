@@ -193,5 +193,21 @@ title: GROUP CHAT PHASE
   </div>
 <div class="product-card">
   <img src="/images/IMG_4172.jpg" alt="contrast1" class="product-img">
-  
+</section>
+
+<section class="story-section">
+  <div class="story-text">
+    <h2>The City Breathes</h2>
+
+    <p>It starts before dawn, when the streets are still wet from the night before and the light has not yet decided what colour it wants to be. There is a particular kind of silence that belongs only to cities at this hour — not the silence of emptiness, but of held breath.</p>
+
+    <p>She walks without a destination, which is itself a destination. The coat is too large and that is the point. The point is to disappear into fabric, into the city, into the space between one moment and the next.</p>
+
+    <img src="/images/HALLWAY.jpg" alt="story image" class="story-img">
+    <span class="story-img-caption">Paris, 2024</span>
+
+    <p>There are places in every city that exist outside of time. A stairwell. A underpass. The back of a bus at 3am. These are the places the collection was made for — not the event, not the arrival, but the in-between.</p>
+
+    <p>By the time the light finally makes up its mind, she is already gone. Only the city remains, exhaling slowly, returning to itself.</p>
+  </div>
 </section>
