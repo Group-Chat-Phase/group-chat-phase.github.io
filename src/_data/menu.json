@@ -1,6 +1,6 @@
 [
   { "name": "Current Issue", "url": "/" },
   { "name": "Archive", "url": "/" },
-  { "name": "About", "url": "/about.md" },
+  { "name": "About", "url": "/about" },
   { "name": "Contact", "url": "#contact" }
 ]
