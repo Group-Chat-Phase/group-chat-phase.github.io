@@ -260,10 +260,12 @@ footer {
 }
 /* 6. STORY SECTION */
 .story-section {
-  background-color: #fff;
+  background-color: #f9e8f5;
   color: #000;
   padding: 100px 40px;
   margin-top: 0;
+  margin-left: -40px;  /* ← cancel out main padding */
+  margin-right: -40px; /* ← cancel out main padding */
 }
 
 .story-section h2 {
@@ -313,6 +315,8 @@ footer {
 @media (max-width: 768px) {
   .story-section {
     padding: 60px 20px;
+    margin-left: -20px; /* ← cancel out mobile main padding */
+    margin-right: -20px;
   }
 
   .story-text {
