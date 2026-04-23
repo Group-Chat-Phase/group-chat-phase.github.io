@@ -328,15 +328,15 @@ footer {
 .about-section {
   padding: 160px 40px 100px; /* 160px top to clear the fixed header */
   max-width: 680px;
-  text-transform: none;
 }
 
 .about-section h1 {
   font-family: 'Inter', sans-serif;
   font-size: clamp(1.5rem, 4vw, 3rem); /* much smaller than hero h1 */
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: -0.02em;
   margin-bottom: 40px;
+  text-transform: uppercase
 }
 
 .about-section p {
