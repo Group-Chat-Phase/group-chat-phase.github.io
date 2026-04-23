@@ -24,9 +24,6 @@ title: GROUP CHAT PHASE
   <img src="/images/BALLS.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card full-width">
-  <img src="/images/enoshimakite.jpg" alt="contrast1" class="product-img-landscape">
-</div>
-<div class="product-card full-width">
   <img src="/images/MALL_OG_EDITED.jpg" alt="contrast1" class="product-img-landscape">
 </div>
 <div class="product-card">
@@ -35,14 +32,14 @@ title: GROUP CHAT PHASE
 <div class="product-card">
   <img src="/images/CUBE2.jpg" alt="contrast1" class="product-img">
 </div>
+<div class="product-card full-width">
+  <img src="/images/Artifacts.jpg" alt="contrast1" class="product-img-landscape">
+</div>
 <div class="product-card">
   <img src="/images/HALLWAY.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card">
   <img src="/images/HOLE.jpg" alt="contrast1" class="product-img">
-</div>
-<div class="product-card full-width">
-  <img src="/images/Artifacts.jpg" alt="contrast1" class="product-img-landscape">
 </div>
 <div class="product-card full-width">
   <img src="/images/ARTIFACTS2.jpg" alt="contrast1" class="product-img-landscape">
@@ -62,17 +59,17 @@ title: GROUP CHAT PHASE
 <div class="product-card full-width">
   <img src="/images/STAR_WARS.jpg" alt="contrast1" class="product-img-landscape">
 </div>
-<div class="product-card">
-  <img src="/images/SWOOSH.jpg" alt="contrast1" class="product-img">
-</div>
-<div class="product-card">
-  <img src="/images/WAVES.jpg" alt="contrast1" class="product-img">
-</div>
 <div class="product-card full-width">
   <img src="/images/leo3.jpg" alt="contrast1" class="product-img-landscape">
 </div>
 <div class="product-card full-width">
   <img src="/images/leo2.jpg" alt="contrast1" class="product-img-landscape">
+</div>
+<div class="product-card">
+  <img src="/images/leo11.jpg" alt="contrast1" class="product-img">
+</div>
+<div class="product-card">
+  <img src="/images/leo12.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card full-width">
   <img src="/images/leo4.jpg" alt="contrast1" class="product-img-landscape">
@@ -80,38 +77,44 @@ title: GROUP CHAT PHASE
 <div class="product-card full-width">
   <img src="/images/leo6.jpg" alt="contrast1" class="product-img-landscape">
 </div>
-<div class="product-card full-width">
-  <img src="/images/leo7.jpg" alt="contrast1" class="product-img-landscape">
-</div>
 <div class="product-card">
   <img src="/images/leo9.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card">
   <img src="/images/CLOUD_MIRROR.jpg" alt="contrast1" class="product-img">
 </div>
+<div class="product-card">
+  <img src="/images/IMG_3251.jpg" alt="contrast1" class="product-img">
+  </div>
+<div class="product-card">
+  <img src="/images/2533.png" alt="contrast1" class="product-img">
+  </div>
 <div class="product-card full-width">
   <img src="/images/Hyogo1.jpg" alt="contrast1" class="product-img-landscape">
 </div>
+<div class="product-card">
+  <img src="/images/IMG_3430.jpg" alt="contrast1" class="product-img">
+  </div>
+<div class="product-card">
+  <img src="/images/IMG_3436.jpg" alt="contrast1" class="product-img">
+  </div>
 <div class="product-card full-width">
   <img src="/images/deathspider.jpg" alt="contrast1" class="product-img-landscape">
+</div>
+<div class="product-card full-width">
+  <img src="/images/enoshimakite.jpg" alt="contrast1" class="product-img-landscape">
 </div>
 <div class="product-card">
   <img src="/images/TOPDOWN_CHICAGO.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card">
-  <img src="/images/enoshimakite1.jpg" alt="contrast1" class="product-img">
+  <img src="/images/IMG_4172.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card">
   <img src="/images/WALLS.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card">
   <img src="/images/leo10.jpg" alt="contrast1" class="product-img">
-</div>
-<div class="product-card">
-  <img src="/images/leo11.jpg" alt="contrast1" class="product-img">
-</div>
-<div class="product-card">
-  <img src="/images/leo12.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card">
   <img src="/images/leo13.jpg" alt="contrast1" class="product-img">
@@ -125,17 +128,23 @@ title: GROUP CHAT PHASE
 <div class="product-card">
   <img src="/images/leo19.jpg" alt="contrast1" class="product-img">
 </div>
-<div class="product-card">
-  <img src="/images/leo8.jpg" alt="contrast1" class="product-img">
+<div class="product-card full-width">
+  <img src="/images/leo8.jpg" alt="contrast1" class="product-img-landscape">
 </div>
 <div class="product-card">
   <img src="/images/IMG_1169.jpg" alt="contrast1" class="product-img">
 </div>
-<div class="product-card">
-  <img src="/images/2546.png" alt="contrast1" class="product-img">
+<div class="product-card full-width">
+  <img src="/images/2546.png" alt="contrast1" class="product-img-landscape">
   </div>
 <div class="product-card">
-  <img src="/images/2554.png" alt="contrast1" class="product-img">
+  <img src="/images/SWOOSH.jpg" alt="contrast1" class="product-img">
+</div>
+<div class="product-card">
+  <img src="/images/WAVES.jpg" alt="contrast1" class="product-img">
+</div>
+<div class="product-card full-width">
+  <img src="/images/2554.png" alt="contrast1" class="product-img-landscape">
   </div>
 <div class="product-card">
   <img src="/images/IMG_2356.jpg" alt="contrast1" class="product-img">
@@ -156,12 +165,6 @@ title: GROUP CHAT PHASE
   <img src="/images/IMG_3247.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_3251.jpg" alt="contrast1" class="product-img">
-  </div>
-<div class="product-card">
-  <img src="/images/2533.png" alt="contrast1" class="product-img">
-  </div>
-<div class="product-card">
   <img src="/images/2536.png" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
@@ -172,12 +175,6 @@ title: GROUP CHAT PHASE
   </div>
 <div class="product-card">
   <img src="/images/IMG_3418.jpg" alt="contrast1" class="product-img">
-  </div>
-<div class="product-card">
-  <img src="/images/IMG_3430.jpg" alt="contrast1" class="product-img">
-  </div>
-<div class="product-card">
-  <img src="/images/IMG_3436.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
   <img src="/images/IMG_3547.jpg" alt="contrast1" class="product-img">
@@ -191,8 +188,9 @@ title: GROUP CHAT PHASE
 <div class="product-card">
   <img src="/images/IMG_3911.jpg" alt="contrast1" class="product-img">
   </div>
-<div class="product-card">
-  <img src="/images/IMG_4172.jpg" alt="contrast1" class="product-img">
+<div class="product-card full-width">
+  <img src="/images/leo7.jpg" alt="contrast1" class="product-img-landscape">
+</div>
 </section>
 
 <section class="story-section">
