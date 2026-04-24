@@ -32,39 +32,38 @@
     <p>&copy; 2026 GROUP CHAT PHASE. ALL RIGHTS RESERVED.</p>
   </footer>
 
-  <script>
-    const interludes = document.querySelectorAll('.story-interlude');
+ <script>
+  const interludes = document.querySelectorAll('.story-interlude');
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          const prev = entry.target.previousElementSibling;
-          const next = entry.target.nextElementSibling;
-          if (prev && prev.classList.contains('story-text')) {
-            prev.style.opacity = '0';
-            prev.style.transition = 'opacity 0.8s ease';
-          }
-          if (next && next.classList.contains('story-text')) {
-            next.style.opacity = '0';
-            next.style.transition = 'opacity 0.8s ease';
-          }
-        } else {
-          entry.target.classList.remove('visible');
-          const prev = entry.target.previousElementSibling;
-          const next = entry.target.nextElementSibling;
-          if (prev && prev.classList.contains('story-text')) {
-            prev.style.opacity = '1';
-          }
-          if (next && next.classList.contains('story-text')) {
-            next.style.opacity = '1';
-          }
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const prev = entry.target.previousElementSibling;
+      const next = entry.target.nextElementSibling;
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        if (prev && prev.classList.contains('story-text')) {
+          prev.style.opacity = '0';
+          prev.style.transition = 'opacity 0.8s ease';
         }
-      });
-    }, { threshold: 0.3 });
+        if (next && next.classList.contains('story-text')) {
+          next.style.opacity = '0';
+          next.style.transition = 'opacity 0.8s ease';
+        }
+      } else {
+        entry.target.classList.remove('visible');
+        if (prev && prev.classList.contains('story-text')) {
+          prev.style.opacity = '1';
+        }
+        if (next && next.classList.contains('story-text')) {
+          next.style.opacity = '1';
+        }
+      }
+    });
+  }, { threshold: 0.3 });
 
-    interludes.forEach(interlude => observer.observe(interlude));
-  </script>
+  interludes.forEach(interlude => observer.observe(interlude));
+</script>
   
 </body>
 </html>
