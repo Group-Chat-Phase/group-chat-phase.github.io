@@ -324,6 +324,34 @@ footer {
   }
 }
 
+/* STORY PHOTO INTERLUDE */
+.story-interlude {
+  position: relative;
+  background-color: #000;
+  margin-left: -40px;
+  margin-right: -40px;
+  padding: 100px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  opacity: 1;        /* ← always visible, no fade */
+  transition: none;  /* ← remove transition */
+}
+
+.story-interlude .product-card {
+  max-width: 500px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .story-interlude {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 60px 20px;
+  }
+}
+
 /* 7. ABOUT PAGE */
 .about-section {
   padding: 160px 40px 100px; /* 160px top to clear the fixed header */
@@ -354,34 +382,3 @@ footer {
   }
 }
 
-/* STORY PHOTO INTERLUDE */
-.story-interlude {
-  position: relative;
-  background-color: #000;
-  margin-left: -40px;
-  margin-right: -40px;
-  padding: 100px 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  opacity: 0;
-  transition: opacity 0.8s ease;
-}
-
-.story-interlude.visible {
-  opacity: 1;
-}
-
-.story-interlude .product-card {
-  max-width: 500px;
-  width: 100%;
-}
-
-@media (max-width: 768px) {
-  .story-interlude {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding: 60px 20px;
-  }
-}
