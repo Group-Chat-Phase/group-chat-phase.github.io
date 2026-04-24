@@ -67,6 +67,19 @@ main {
   padding-bottom: 10vh;
 }
 
+.hero-img {
+  position: absolute;
+  top: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  max-width: 400px;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease;
+  z-index: 0;
+}
+
 h1 {
   font-family: 'Oswald', sans-serif;
   font-size: clamp(4rem, 18vw, 15rem);

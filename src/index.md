@@ -4,6 +4,7 @@ title: GROUP CHAT PHASE
 ---
 
 <section class="hero">
+  <img src="/images/HEROPIC.jpg" class="hero-img">
   <div class="hero-text">
     <h1>METROSE<br>DIGITAL</h1>
   </div>

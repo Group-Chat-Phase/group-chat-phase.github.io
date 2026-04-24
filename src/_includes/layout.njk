@@ -63,6 +63,18 @@
   }, { threshold: 0.3 });
 
   interludes.forEach(interlude => observer.observe(interlude));
+
+const heroImg = document.querySelector('.hero-img');
+
+const heroObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      heroImg.classList.add('visible');
+    }
+  });
+}, { threshold: 0.2 });
+
+if (heroImg) heroObserver.observe(heroImg);
 </script>
   
 </body>
