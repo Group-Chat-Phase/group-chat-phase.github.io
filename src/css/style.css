@@ -83,10 +83,17 @@ h1 {
 }
 
 /* 4. EDITORIAL NOTE */
-.editorial-note {
+.editorial-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
   border-top: 1px solid #333;
   padding: 60px 0;
   margin-top: 60px;
+  align-items: start;
+}
+
+.editorial-note {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 40px;
@@ -95,7 +102,7 @@ h1 {
 
 .editorial-note h2 {
   font-family: 'Space Mono', monospace;
-  font-size: 15px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.2em;
   color: #444;
@@ -103,12 +110,58 @@ h1 {
 
 .editorial-note p {
   font-family: 'Inter', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.8;
   color: #888;
   letter-spacing: 0.05em;
   text-transform: none;
   max-width: 600px;
+}
+
+.table-of-contents {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.table-of-contents h2 {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: #444;
+}
+
+.table-of-contents ul {
+  list-style: none;
+  padding: 0;
+}
+
+.table-of-contents ul li {
+  margin-bottom: 15px;
+}
+
+.table-of-contents ul li a {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #888;
+  letter-spacing: 0.05em;
+  text-transform: none;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.table-of-contents ul li a:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .editorial-wrapper {
+    grid-template-columns: 1fr; /* ← stacks on mobile */
+    gap: 40px;
+  }
 }
 
 /* 5. PRODUCT GRID & IMAGES */
