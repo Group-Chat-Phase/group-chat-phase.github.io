@@ -122,14 +122,11 @@ title: GROUP CHAT PHASE
 <div class="product-card">
   <img src="/images/leo14.jpg" alt="contrast1" class="product-img">
 </div>
-<div class="product-card">
-  <img src="/images/leo18.jpg" alt="contrast1" class="product-img">
+<div class="product-card full-width">
+  <img src="/images/leo8.jpg" alt="contrast1" class="product-img-landscape">
 </div>
 <div class="product-card">
   <img src="/images/leo19.jpg" alt="contrast1" class="product-img">
-</div>
-<div class="product-card full-width">
-  <img src="/images/leo8.jpg" alt="contrast1" class="product-img-landscape">
 </div>
 <div class="product-card">
   <img src="/images/IMG_1169.jpg" alt="contrast1" class="product-img">
