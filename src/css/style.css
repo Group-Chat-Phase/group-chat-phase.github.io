@@ -59,13 +59,18 @@ main {
   padding: 0 40px;
 }
 
+.hero-wrapper {
+  height: 200vh; /* extra scroll room for the pin effect */
+}
+
 .hero {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding-bottom: 10vh;
-  position: relative;
+  position: sticky;  /* this is the key */
+  top: 0;
 }
 
 .hero-img {
@@ -77,7 +82,6 @@ main {
   max-width: 400px;
   object-fit: cover;
   opacity: 0;
-  transition: opacity 1s ease;
   z-index: 0;
 }
 

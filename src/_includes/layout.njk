@@ -62,17 +62,17 @@
   interludes.forEach(interlude => observer.observe(interlude));
 
 const heroImg = document.querySelector('.hero-img');
+const heroWrapper = document.querySelector('.hero-wrapper');
 
-const heroObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      heroImg.classList.add('visible');
-    }
-  });
-}, { threshold: 0.2 });
+window.addEventListener('scroll', () => {
+  const wrapperTop = heroWrapper.getBoundingClientRect().top + window.scrollY;
+  const scrollIntoWrapper = window.scrollY - wrapperTop;
+  const fadeDistance = window.innerHeight * 0.8; // fade completes after 80vh of scroll
 
-if (heroImg) heroObserver.observe(heroImg);
+  const opacity = Math.max(0, Math.min(scrollIntoWrapper / fadeDistance, 1));
+  heroImg.style.opacity = opacity;
+});
+
 </script>
-  
 </body>
 </html>
