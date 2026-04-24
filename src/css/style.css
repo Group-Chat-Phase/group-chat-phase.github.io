@@ -162,6 +162,10 @@ h1 {
     grid-template-columns: 1fr; /* ← stacks on mobile */
     gap: 40px;
   }
+
+  .table-of-contents ul li a {
+    font-size: 12px;
+}
 }
 
 /* 5. PRODUCT GRID & IMAGES */
