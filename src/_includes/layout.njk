@@ -32,14 +32,12 @@
     <p>&copy; 2026 GROUP CHAT PHASE. ALL RIGHTS RESERVED.</p>
   </footer>
 
- <script>
+<script>
   const interludes = document.querySelectorAll('.story-interlude');
-
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       const prev = entry.target.previousElementSibling;
       const next = entry.target.nextElementSibling;
-
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
         if (prev && prev.classList.contains('story-text')) {
@@ -61,20 +59,18 @@
       }
     });
   }, { threshold: 0.3 });
-
   interludes.forEach(interlude => observer.observe(interlude));
 
-const heroImg = document.querySelector('.hero-img');
-
-const heroObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      heroImg.classList.add('visible');
-    }
-  });
-}, { threshold: 0.2 });
-
-if (heroImg) heroObserver.observe(heroImg);
+  const heroImg = document.querySelector('.hero-img');
+  if (heroImg) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        heroImg.classList.add('visible');
+      } else {
+        heroImg.classList.remove('visible');
+      }
+    });
+  }
 </script>
   
 </body>
