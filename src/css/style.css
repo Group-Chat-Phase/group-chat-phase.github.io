@@ -341,11 +341,6 @@ footer {
   top: 0;
 }
 
-.story-text {
-  opacity: 0;
-  transition: opacity 1s ease;
-}
-
 .story-text.visible {
   opacity: 1;
 }

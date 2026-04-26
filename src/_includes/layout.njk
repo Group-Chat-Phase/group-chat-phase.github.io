@@ -33,8 +33,9 @@
   </footer>
 
 <script>
+  // 1. STORY INTERLUDES
   const interludes = document.querySelectorAll('.story-interlude');
-  const observer = new IntersectionObserver((entries) => {
+  const interludeObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       const prev = entry.target.previousElementSibling;
       const next = entry.target.nextElementSibling;
@@ -59,37 +60,44 @@
       }
     });
   }, { threshold: 0.3 });
-  interludes.forEach(interlude => observer.observe(interlude));
+  interludes.forEach(interlude => interludeObserver.observe(interlude));
 
-const heroImg = document.querySelector('.hero-img');
-const heroWrapper = document.querySelector('.hero-wrapper');
+  // 2. UNIFIED SCROLL HANDLER
+  const heroImg = document.querySelector('.hero-img');
+  const heroWrapper = document.querySelector('.hero-wrapper');
+  const storyWrapper = document.querySelector('.story-wrapper');
+  const firstStoryText = document.querySelector('.story-text');
 
-window.addEventListener('scroll', () => {
-  const wrapperTop = heroWrapper.getBoundingClientRect().top + window.scrollY;
-  const scrollIntoWrapper = window.scrollY - wrapperTop;
-  const fadeDistance = window.innerHeight * 0.8; // fade completes after 80vh of scroll
+  // initialise first story text as invisible
+  if (firstStoryText) {
+    firstStoryText.style.opacity = '0';
+    firstStoryText.style.transition = 'opacity 1s ease';
+  }
 
-  const opacity = Math.max(0, Math.min(scrollIntoWrapper / fadeDistance, 1));
-  heroImg.style.opacity = opacity;
-});
-
-const storyWrapper = document.querySelector('.story-wrapper');
-const firstStoryText = document.querySelector('.story-text');
-
-if (storyWrapper && firstStoryText) {
   window.addEventListener('scroll', () => {
-    const wrapperTop = storyWrapper.getBoundingClientRect().top + window.scrollY;
-    const scrollIntoWrapper = window.scrollY - wrapperTop;
-    const fadeDistance = window.innerHeight * 0.5;
 
-    if (scrollIntoWrapper > fadeDistance) {
-      firstStoryText.classList.add('visible');
-    } else {
-      firstStoryText.classList.remove('visible');
+    // HERO IMAGE FADE IN
+    if (heroImg && heroWrapper) {
+      const wrapperTop = heroWrapper.getBoundingClientRect().top + window.scrollY;
+      const scrollIntoWrapper = window.scrollY - wrapperTop;
+      const fadeDistance = window.innerHeight * 0.8;
+      const opacity = Math.max(0, Math.min(scrollIntoWrapper / fadeDistance, 1));
+      heroImg.style.opacity = opacity;
     }
-  });
-}
 
+    // STORY TEXT FADE IN
+    if (storyWrapper && firstStoryText) {
+      const wrapperTop = storyWrapper.getBoundingClientRect().top + window.scrollY;
+      const scrollIntoWrapper = window.scrollY - wrapperTop;
+      const fadeDistance = window.innerHeight * 0.5;
+      if (scrollIntoWrapper > fadeDistance) {
+        firstStoryText.style.opacity = '1';
+      } else {
+        firstStoryText.style.opacity = '0';
+      }
+    }
+
+  });
 </script>
 </body>
 </html>
