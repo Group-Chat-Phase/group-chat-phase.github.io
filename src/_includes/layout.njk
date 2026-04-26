@@ -89,7 +89,7 @@
     if (storyWrapper && firstStoryText) {
       const wrapperTop = storyWrapper.getBoundingClientRect().top + window.scrollY;
       const scrollIntoWrapper = window.scrollY - wrapperTop;
-      const fadeDistance = window.innerHeight * 0.5;
+      const fadeDistance = window.innerHeight * 0.3;
       if (scrollIntoWrapper > fadeDistance) {
         firstStoryText.style.opacity = '1';
       } else {

@@ -333,8 +333,7 @@ footer {
 
 /* STORY SECTION ENTRANCE */
 .story-wrapper {
-  height: 150vh; /* scroll room for the pin effect */
-}
+  height: 200vh; /* more room = text is fully faded in before unpinning */}
 
 .story-section {
   position: sticky;
@@ -351,6 +350,13 @@ footer {
   margin-top: 0;
   margin-left: -40px;  /* ← cancel out main padding */
   margin-right: -40px; /* ← cancel out main padding */
+  position: sticky;
+  top: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 80px; /* clears the fixed header */
 }
 
 .story-section h2 {
