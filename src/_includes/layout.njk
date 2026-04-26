@@ -73,6 +73,23 @@ window.addEventListener('scroll', () => {
   heroImg.style.opacity = opacity;
 });
 
+const storyWrapper = document.querySelector('.story-wrapper');
+const firstStoryText = document.querySelector('.story-text');
+
+if (storyWrapper && firstStoryText) {
+  window.addEventListener('scroll', () => {
+    const wrapperTop = storyWrapper.getBoundingClientRect().top + window.scrollY;
+    const scrollIntoWrapper = window.scrollY - wrapperTop;
+    const fadeDistance = window.innerHeight * 0.5;
+
+    if (scrollIntoWrapper > fadeDistance) {
+      firstStoryText.classList.add('visible');
+    } else {
+      firstStoryText.classList.remove('visible');
+    }
+  });
+}
+
 </script>
 </body>
 </html>

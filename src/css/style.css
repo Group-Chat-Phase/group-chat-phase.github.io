@@ -330,6 +330,25 @@ footer {
   }
 }
 /* 6. STORY SECTION */
+
+/* STORY SECTION ENTRANCE */
+.story-wrapper {
+  height: 150vh; /* scroll room for the pin effect */
+}
+
+.story-section {
+  position: sticky;
+  top: 0;
+}
+
+.story-text {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.story-text.visible {
+  opacity: 1;
+}
 .story-section {
   background-color: #f9e8f5;
   color: #000;
