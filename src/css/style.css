@@ -334,15 +334,7 @@ footer {
 /* STORY SECTION ENTRANCE */
 .story-wrapper {
   height: 200vh; /* more room = text is fully faded in before unpinning */}
-
-.story-section {
-  position: sticky;
-  top: 0;
-}
-
-.story-text.visible {
-  opacity: 1;
-}
+  
 .story-section {
   background-color: #f9e8f5;
   color: #000;
@@ -353,10 +345,18 @@ footer {
   position: sticky;
   top: 0;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding-top: 80px; /* clears the fixed header */
+}
+
+.story-inner {
+  opacity: 0;
+  transition: opacity 1s ease;
+  padding: 80px 40px 100px;
+  height: 100%;
+  overflow-y: auto; /* scrollable once visible */
+}
+
+.story-inner.visible {
+  opacity: 1;
 }
 
 .story-section h2 {
