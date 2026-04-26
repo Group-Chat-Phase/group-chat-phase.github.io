@@ -333,30 +333,24 @@ footer {
 
 /* STORY SECTION ENTRANCE */
 .story-wrapper {
-  height: 200vh; /* more room = text is fully faded in before unpinning */}
-  
+  height: 400vh; /* tall enough for: pink fade-in + text fade-in + reading room */
+}
+
 .story-section {
   background-color: #f9e8f5;
   color: #000;
-  padding: 100px 40px;
-  margin-top: 0;
-  margin-left: -40px;  /* ← cancel out main padding */
-  margin-right: -40px; /* ← cancel out main padding */
+  margin-left: -40px;
+  margin-right: -40px;
   position: sticky;
   top: 0;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .story-inner {
   opacity: 0;
-  transition: opacity 1s ease;
   padding: 80px 40px 100px;
-  height: 100%;
-  overflow-y: auto; /* scrollable once visible */
-}
-
-.story-inner.visible {
-  opacity: 1;
 }
 
 .story-section h2 {

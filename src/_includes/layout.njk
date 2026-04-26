@@ -86,18 +86,19 @@
     }
 
     // STORY TEXT FADE IN
-    if (storyWrapper && firstStoryText) {
-      const wrapperTop = storyWrapper.getBoundingClientRect().top + window.scrollY;
-      const scrollIntoWrapper = window.scrollY - wrapperTop;
-      const fadeDistance = window.innerHeight * 0.3;
-      if (scrollIntoWrapper > fadeDistance) {
-        firstStoryText.style.opacity = '1';
-      } else {
-        firstStoryText.style.opacity = '0';
-      }
-    }
+    if (!storyWrapper || !storyInner) return;
 
-  });
+  const wrapperTop = storyWrapper.getBoundingClientRect().top + window.scrollY;
+  const scrollIntoWrapper = window.scrollY - wrapperTop;
+
+  // Phase 1: first 100vh of scroll = pink background fades in (handled by sticky)
+  // Phase 2: next 100vh = story text fades in
+  const fadeStart = window.innerHeight;       // text starts fading after 1 viewport of scroll
+  const fadeEnd = window.innerHeight * 2;     // fully visible after 2 viewports
+
+  const opacity = Math.max(0, Math.min((scrollIntoWrapper - fadeStart) / (fadeEnd - fadeStart), 1));
+  storyInner.style.opacity = opacity;
+});
 </script>
 </body>
 </html>
