@@ -275,4 +275,4 @@ title: GROUP CHAT PHASE
     <p>By the time the light finally makes up its mind, she is already gone.</p>
    </div>
   </section>
-<div>
+</div>
