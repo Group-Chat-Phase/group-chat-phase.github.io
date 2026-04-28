@@ -157,43 +157,43 @@ title: GROUP CHAT PHASE
   <img src="/images/IMG_2356.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_2439.jpg" alt="contrast1" class="product-img">
+  <img src="/images/IMG_2439c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_2461.jpg" alt="contrast1" class="product-img">
+  <img src="/images/IMG_2461c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_2628.jpg" alt="contrast1" class="product-img">
+  <img src="/images/IMG_2628c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_3222.jpg" alt="contrast1" class="product-img">
+  <img src="/images/IMG_3222c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_3247.jpg" alt="contrast1" class="product-img">
+  <img src="/images/IMG_3247c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
   <img src="/images/2536c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_3286.jpg" alt="contrast1" class="product-img">
+  <img src="/images/IMG_3286c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_3288.jpg" alt="contrast1" class="product-img">
+  <img src="/images/IMG_3288c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_3418.jpg" alt="contrast1" class="product-img">
+  <img src="/images/IMG_3418c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_3547.jpg" alt="contrast1" class="product-img">
+  <img src="/images/IMG_3547c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_3700.jpg" alt="contrast1" class="product-img">
+  <img src="/images/IMG_3700c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_3907.jpg" alt="contrast1" class="product-img">
+  <img src="/images/IMG_3907c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_3911.jpg" alt="contrast1" class="product-img">
+  <img src="/images/IMG_3911c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card full-width">
   <img src="/images/leo7.jpg" alt="contrast1" class="product-img-landscape">
