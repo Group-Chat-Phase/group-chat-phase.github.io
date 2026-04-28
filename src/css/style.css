@@ -330,27 +330,13 @@ footer {
   }
 }
 /* 6. STORY SECTION */
-
-/* STORY SECTION ENTRANCE */
-.story-wrapper {
-  height: 400vh; /* tall enough for: pink fade-in + text fade-in + reading room */
-}
-
 .story-section {
   background-color: #f9e8f5;
   color: #000;
-  margin-left: -40px;
-  margin-right: -40px;
-  position: sticky;
-  top: 0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.story-inner {
-  opacity: 0;
-  padding: 80px 40px 100px;
+  padding: 100px 40px;
+  margin-top: 0;
+  margin-left: -40px;  /* ← cancel out main padding */
+  margin-right: -40px; /* ← cancel out main padding */
 }
 
 .story-section h2 {
@@ -469,4 +455,3 @@ footer {
     padding: 120px 20px 60px;
   }
 }
-

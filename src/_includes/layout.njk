@@ -33,9 +33,8 @@
   </footer>
 
 <script>
-  // 1. STORY INTERLUDES
   const interludes = document.querySelectorAll('.story-interlude');
-  const interludeObserver = new IntersectionObserver((entries) => {
+  const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       const prev = entry.target.previousElementSibling;
       const next = entry.target.nextElementSibling;
@@ -60,39 +59,20 @@
       }
     });
   }, { threshold: 0.3 });
-  interludes.forEach(interlude => interludeObserver.observe(interlude));
+  interludes.forEach(interlude => observer.observe(interlude));
 
-  // 2. UNIFIED SCROLL HANDLER
-  const heroImg = document.querySelector('.hero-img');
-  const heroWrapper = document.querySelector('.hero-wrapper');
-  const storyWrapper = document.querySelector('.story-wrapper');
-  const firstStoryText = document.querySelector('.story-inner');
+const heroImg = document.querySelector('.hero-img');
+const heroWrapper = document.querySelector('.hero-wrapper');
 
-  window.addEventListener('scroll', () => {
-
-    // HERO IMAGE FADE IN
-    if (heroImg && heroWrapper) {
-      const wrapperTop = heroWrapper.getBoundingClientRect().top + window.scrollY;
-      const scrollIntoWrapper = window.scrollY - wrapperTop;
-      const fadeDistance = window.innerHeight * 0.8;
-      const opacity = Math.max(0, Math.min(scrollIntoWrapper / fadeDistance, 1));
-      heroImg.style.opacity = opacity;
-    }
-
-    // STORY TEXT FADE IN
-    if (!storyWrapper || !storyInner) return;
-
-  const wrapperTop = storyWrapper.getBoundingClientRect().top + window.scrollY;
+window.addEventListener('scroll', () => {
+  const wrapperTop = heroWrapper.getBoundingClientRect().top + window.scrollY;
   const scrollIntoWrapper = window.scrollY - wrapperTop;
+  const fadeDistance = window.innerHeight * 0.8; // fade completes after 80vh of scroll
 
-  // Phase 1: first 100vh of scroll = pink background fades in (handled by sticky)
-  // Phase 2: next 100vh = story text fades in
-  const fadeStart = window.innerHeight;       // text starts fading after 1 viewport of scroll
-  const fadeEnd = window.innerHeight * 2;     // fully visible after 2 viewports
-
-  const opacity = Math.max(0, Math.min((scrollIntoWrapper - fadeStart) / (fadeEnd - fadeStart), 1));
-  storyInner.style.opacity = opacity;
+  const opacity = Math.max(0, Math.min(scrollIntoWrapper / fadeDistance, 1));
+  heroImg.style.opacity = opacity;
 });
+
 </script>
 </body>
 </html>

@@ -200,12 +200,11 @@ title: GROUP CHAT PHASE
 </div>
 </section>
 
-<div class="story-wrapper">
-  <section class="story-section" id="writing">
-    <div class="story-inner">
-      <div class="story-text">
-        <h2>The City Breathes</h2>
-          <p>It starts before dawn, when the streets are still wet from the night before and the light has not yet decided what colour it wants to be.</p>
+<section class="story-section" id="writing">
+  <div class="story-text">
+    <h2>The City Breathes</h2>
+
+    <p>It starts before dawn, when the streets are still wet from the night before and the light has not yet decided what colour it wants to be.</p>
 
     <p>She walks without a destination, which is itself a destination. The coat is too large and that is the point.</p>
     <p>It starts before dawn, when the streets are still wet from the night before and the light has not yet decided what colour it wants to be.</p>
@@ -240,7 +239,7 @@ title: GROUP CHAT PHASE
     </div>
   </div>
 
-   <div class="story-text">
+  <div class="story-text">
     <p>There are places in every city that exist outside of time. A stairwell. An underpass. The back of a bus at 3am.</p>
 
     <p>By the time the light finally makes up its mind, she is already gone.</p>
@@ -274,6 +273,4 @@ title: GROUP CHAT PHASE
 
     <p>By the time the light finally makes up its mind, she is already gone.</p>
   </div>
-  </div>
-  </section>
-</div>
+</section>
