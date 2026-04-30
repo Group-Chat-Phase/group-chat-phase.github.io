@@ -72,6 +72,25 @@ window.addEventListener('scroll', () => {
   const opacity = Math.max(0, Math.min(scrollIntoWrapper / fadeDistance, 1));
   heroImg.style.opacity = opacity;
 });
+// Protect images
+document.addEventListener('contextmenu', (e) => {
+  if (e.target.tagName === 'IMG') {
+    e.preventDefault();
+  }
+});
+
+// Protect images
+document.addEventListener('contextmenu', (e) => {
+  if (e.target.tagName === 'IMG') {
+    e.preventDefault();
+  }
+});
+
+document.addEventListener('dragstart', (e) => {
+  if (e.target.tagName === 'IMG') {
+    e.preventDefault();
+  }
+});
 
 </script>
 </body>
