@@ -203,7 +203,7 @@ title: GROUP CHAT PHASE
 <section class="story-section" id="writing">
   <div class="story-text">
     <h2>METROSIS</h2>
-I'm sitting on the train. Around me, people are standing, hanging on to slick, metal bars. I'm one of the lucky ones. I get on early enough to always have a spot where I can sit my ass down. Not that it really needs the sitting down, not that it really doesn't need it either. It's probably in a permanent state of hibernation from sitting down so much, like a bear that founds its way into a meatpacking factory. So cold, but so much food. The food, in my case, being chairs to sit down – and seats of other kinds. And the cold being… well, also chairs? Anyway, whatever. The point is, I don't have to stand up. And on top of that, I would be at face level – and mouth level – with other people, meaning I would get the five different scents of slopbowl swimming their way into my nostrils for the entire ride. Ah, this guy had Chipotle. Rice bowl, no tortilla. Extra protein. Better muscles, worse kidneys. Next, Cava. The za'atar really comes through. He probably likes traveling. And the others, well, the others don't have a smell, because I'm seated. A little bit of armpit, though, I guess. I don't have to avoid eye contact as much, as well. That's a pretty big one. When it's too crowded and I'm standing there isn't enough space for me to hold my phone without stabbing into another person's flesh, so scrolling is off limits. So I've got to find a faceless spot to rest my eyes on. And there are so many faces, it's hard not to look. To find somebody. To imagine. Seated, less of that. But in the rare event that there's a really tall guy in front of me, and a child, or a person with a really short torso maybe, sitting across, then it's bad. Because the second guy's little eyes peek just under the tall guy's crotch, and I'm going to make eye contact, I always do. So now the tall guy thinks I'm staring point blank at his junk. Luckily though, this kind of configuration is quite rare. And I can look down at my phone's OLED display. Great colors. Even better contrast, really dark blacks.
+I'm sitting on the train. Around me, people are standing, hanging on to slick, metal bars. I'm one of the lucky ones. I get on early enough to always have a spot where I can sit my ass down. Not that it really needs the sitting down; not that it really doesn't need it either. It's probably in a permanent state of hibernation from sitting down so much, like a bear that found its way into a meatpacking factory. So cold, but so much food. The food, in my case, being chairs to sit down – and seats of other kinds. And the cold being… well, also chairs? Anyway, whatever. The point is, I don't have to stand up. And on top of that, I would be at face level – and mouth level – with other people, meaning I would get the five different scents of slopbowl swimming their way into my nostrils for the entire ride. Ah, this guy had Chipotle. Rice bowl, no tortilla. Extra protein. Better muscles, worse kidneys. Next, Cava. The za'atar really comes through. He probably likes traveling. And the others, well, the others don't have a smell, because I'm seated. A little bit of armpit, though, I guess. I don't have to avoid eye contact as much, as well. That's a pretty big one. When it's too crowded and I'm standing there isn't enough space for me to hold my phone without stabbing into another person's flesh, so scrolling is off limits. So I've got to find a faceless spot to rest my eyes on. And there are so many faces, it's hard not to look. To find somebody. To imagine. Seated, less of that. But in the rare event that there's a really tall guy in front of me, and a child, or a person with a really short torso maybe, sitting across, then it's bad. Because the second guy's little eyes peek just under the tall guy's crotch, and I'm going to make eye contact, I always do. So now the tall guy thinks I'm staring point blank at his junk. Luckily though, this kind of configuration is quite rare. And I can look down at my phone's OLED display. Great colors. Even better contrast, really dark blacks.
 
 I'm pretty well acquainted with it since I unlock my phone 273 times a day, on average, according to the screen time app. I open Instagram. I'm checking stories. I've already seen most of them, multiple times even, but that's fine, only I know that. Picture of a guy I know from somewhere, at a party. Today's Tuesday, so it's a late weekend post, maybe. He was hesitant. Picture's fine though. I mean, nothing special. White button down, only one open button. Conservative, giving *After work*. Looks like a pretty standard club as well. Toothless smile, with the boys. Risk-free, overall. Next. A puppy. Boring normie shit. A dachshund, as well. Who in this city between the ages of 26 and 38 doesn't own a dachshund? The dog of the millenial. And the… zillenial? Bad name. Fence sitters. We don't need any more of those. Like the dachshunds. Or no, even worse, French bulldogs. Those things can't even breathe. Like me when I talk to a woman. I chuckle to myself. Now the guy next to me, his eye sitting in the corner of its viscous little socket, ready to catch a nosy glimpse of what the fuss is all about. Not that a chuckle is much of a fuss, but these days that's all it takes for a little investigative peek, to turn people into Scooby Doo. The thing is, since I'm looking at the dachshund, the guy will think I'm chuckling at the dog, which is pretty normal. Not a bad outcome, all things considered.
 
@@ -215,7 +215,6 @@ The train slows and the loathsome screech of the braking wheels is registered so
 
 A drop of water or some other unspeakable liquid, marinating the entrails of the city, falls from the ceiling onto my bare hand. I brush it off, and as I look up she has begun walking away, hurried, towards the stairs leading out the station.
 
----
   </div>
 
   <!-- PHOTO INTERLUDE -->
@@ -226,6 +225,7 @@ A drop of water or some other unspeakable liquid, marinating the entrails of the
   </div>
 
   <div class="story-text">
+
 I'm doing groceries, and what do I see before me? A little Frenchie. Well, I say that I see it – that's because a moment ago I almost connected my chucks with its misshapen cranium in a manner that would've sent the poor thing past the keeper and straight into top bins. He would've never seen it coming, and since it never came, it's like it nothing ever happened. What a goofball. And I was just thinking about them.
 
 I'm in the produce aisle. Bananas. Peaches. I'm feeling kind of overwhelmed by all the colors in the aisle. The apples are huge, way too big a size for a self-respecting apple, and so green, so red, so red. Cosmic Crisp apples. Round, like a planet. Smooth, so red, a soft smooth red just barely specked with whitish golden stars. I'm deep inside the apple now, I've traveled far inside its fresh, crisp cosmos, I'm like a spaceship, beaming through the redness. It's changing now, shifting, here bright, there dark, like a tunnel of apples, a tunnel through a cosmic crisp, through its little ass thing at the bottom of the apple and into the stem, not red now, but brown, and I come out the stem, I see the white ceiling, the Hawaiian shirts of the smiling employees, and I'm back.
@@ -278,7 +278,16 @@ I double click my phone's home button. The OLED display does a really good job c
 
 Outside, the air hurries down the asphalt and bites at my bare cheeks, playfully, like an excited pup. I turn left and begin walking home, the handles of my bag digging into my knuckles. I should've asked for another. Thankfully, the double bags make it so the groceries won't splatter gracelessly onto the pavement, sharing a warm embrace with the rat shit and needles and other filth laying around. My phone vibrates. I stop walking, shove my hand into my pocket, and pull it out. My Meta Ray-Bans have disconnected for some reason. I look around, and to my left I see a courtyard, surrounded by three dark, brick towers slicing upwards into the sky, and in the yard a council of trees, their leaves freshly sprouted and babbling in the wind, murmuring in concert, and to the side a smaller, younger tree, its leaves a cold, fresh pink against the warmer, deeper red of the bricks, its leaves shaking, the bricks standing unswayed, the council whispering through the green leaves, the pink tree alone, to the side. In the square, amid the trees, a large puddle of water, square too, around little fountain sprouts that must be used to create a mist for the kids from the towers during the day, the puddle now eating the colors of the lit windows above and spitting them back out, lights white and yellow hanging stiffly in the darkness like a clothesline somehow untouched by the wind. Around the puddle, a few benches, and on a bench a person, a woman, young, reading perhaps. My eyes are drawn back down to my phone and I reconnect my glasses and keep on walking home.
 
----
+  </div>
+
+  <!-- PHOTO INTERLUDE -->
+  <div class="story-interlude">
+    <div class="product-card">
+      <img src="/images/COSMIC.jpg" class="product-img">
+    </div>
+  </div>
+
+  <div class="story-text">
 
 I haven't really had the chance to try out these glasses so I decided I'm going to show them my groceries.
 
@@ -346,7 +355,17 @@ They wouldn't even need to taste them, just seem them. So big and round and red.
 
 I'm looking out the window now, apples in hand. The glasses are still talking, I'm not really listening anymore though. Outside the trees in the yard are swaying a little in the wind, not violently, no, rather like they enjoy it, like a dog sticking its head out of a car window. Maybe I should go berry picking this weekend. Black bob.
 
----
+  </div>
+
+  <!-- PHOTO INTERLUDE -->
+  <div class="story-interlude">
+    <div class="product-card">
+      <img src="/images/HALLWAY.jpg" class="product-img">
+    </div>
+  </div>
+
+  <div class="story-text">
+
 
 I didn't go berry picking. The tall steel frames of the buildings overhead are severed by the mouth of the train station as the escalator draws me inward to the warm core of the earth.
 
@@ -392,7 +411,17 @@ The next door down the crowd starts shifting, scattering further down the train.
 
 Deborah looks over reproachfully and I look back and she's back on her phone already so I check mine to see what's written about Amina in the app, in the hopes that there's more, but no. No LinkedIn even. The saturated train speakers blare out "Delancey-Essex" and the doors are already open and so I stuff my phone into my pocket and grab my backpack and my glasses fall and almost crash against the floor but I snatch them mid air and I'm out of the train. The doors close, and I check to my left and to my right to see if she's on the platform but no, she's still on the train this time, thundering away towards the Williamsburg bridge.
 
----
+  </div>
+
+  <!-- PHOTO INTERLUDE -->
+  <div class="story-interlude">
+    <div class="product-card">
+      <img src="/images/ESSEX.jpg" class="product-img">
+    </div>
+  </div>
+
+  <div class="story-text">
+
 
 "What exactly do you want me to do? I'm not sure I understand."
 
@@ -514,7 +543,16 @@ My eyes are anchored to the countertop, sitting there like a kitchen appliance t
 
 Black bob, olive skin, green eyes, green like bronze in air for too long, small-ish frame, hands very… nimble? tank top, smoke alarm, black bob, brown crust, yellow sneakers, adidas probably, oven grate, three stripes, screeching metal, white socks, hot steam, closed door, black bob, closed door.
 
----
+  </div>
+
+  <!-- PHOTO INTERLUDE -->
+  <div class="story-interlude">
+    <div class="product-card">
+      <img src="/images/HALLWAY.jpg" class="product-img">
+    </div>
+  </div>
+
+  <div class="story-text">
 
 Sweaty bodies pool in the train. Through the speakers, a mangled "14th street". Her stop. I'm not seated this time, I'm standing for a good vantage point. Everybody lurches slightly as the train stops and then straighten up, mechanically, like a tree swept by a strong breeze, its branches settling as the gust bids them farewell. A crowd enters. My glasses are on but I don't think I'll need them. I did set an alert in the facial recognition app, so that it pushes a bunch of notifications if it detects her face. So far, no buzzing. Passengers leap through the open doors and huddle like frogspawn. The doors close, and I'm peering into the skyline of faces, trying to discern the squat mid-rise I'm looking for. With each new face, the probability fades. In the meantime, I'm going over our training. Or my training? The rehearsals. Going over the words, the options, the possible outcomes. Butterfly effect. We went over them. Not too pushy, that's the most important. And don't forget, the chance of rejection. It looms. But don't be afraid. It's not your boss. Only good things can happen. The worst outcome is neutral. No changes, life keeps going on, as usual. Or no tangible physical changes at least. I've got her lines playing over and over, bouncing between my two ears. Inwardly that is. The voice is quite definitely in my head so far, no sign of her. Or, not her voice, but the voice. That the machine chose for her. The train's moving again, her absence is walking through the wagons, one by one, opening the doors between them like a wandering homeless person and letting in the thick, whooshing sound of the air in the tunnel getting impaled by the flat, silver face of the train, walking towards me, and my body doesn't know what to do. Should I be relieved by this absence? Have I dodged a bullet? A bullet from a gun I myself would be holding, shakily, this whole time? Or would that be celebrating an early victory? After all, she may have decided to walk to the next stop. Maybe she needed some fresh air, maybe she just likes walking. Or should I be disappointed? Disappointed by a missed opportunity? A chance at liberation? Disappointed at hours of preparation dissipating into the hot air of the train tunnels? Disappointed by a whole array of future chances at smiles and laughter and other possibilities scattered onto the naked tracks and left there, shaking as the electric current fries away these foregone moments?
 
