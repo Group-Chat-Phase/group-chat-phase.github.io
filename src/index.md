@@ -391,7 +391,7 @@ Next stop, 14th street. Suits bustle in from nearby office buildings. Deborah ha
 
 Metal would never have made the cut in my imaginary profile. I guess I'm not creative enough to have KWH law fit with Tool concerts. I'm bound by stereotypes. Maybe this whole experiment will make me more open-minded.
 
-The train leaves the station again. In front of me, a large white bag made of a sort of thick stain paper, waving a huge Macy's logo in front of my eyes, like a pendulum swinging from the hand of a hypnotist. I quickly glance at the carrier, just long enough for the camera to pick up their face.
+The train leaves the station again. In front of me, a large white bag made of a sort of thick satin paper, waving a huge Macy's logo in front of my eyes, like a pendulum swinging from the hand of a hypnotist. I quickly glance at the carrier, just long enough for the camera to pick up their face.
 
 "Silvia Gonzalez has been visiting New York City for the past 5 days. She flew into Newark airport last Thursday where her brother Daniel picked her up. She lives in Cartagena, Colombia. She's a medical student there. Her brother has been living in New York City for 3 years, working as an architect." She was probably at the Macy's at Herald Square, on 34th street. Maybe she went to visit the Empire State Building as well. She's alone because her brother has probably done that kind of touristy thing before. I check her Instagram, which the app easily found. Her profile's public. A story posted today, at the top of the Empire State Building. Bingo. There are a lot of photos here. I'm trying to glean information but it's too time consuming. I open the app instead and navigate to the chat-bot.
 
@@ -697,6 +697,26 @@ She takes the notebook out of my hands, her fingers brushing mine.
 
 "If you're lucky I might even tell my grandma about you. So long, Mister Apples."
 
-She walks away into the courtyard, the red brick buildings slicing skywards, a courtyard I've seen before. She walks through the shade beneath the trees and her body briefly appears reflected in the puddle where the lights were last time – kids must have been out playing in the mist again – and she takes a right and disappears behind the bright, pink, leaves of the lonesome tree. My glasses are still on.
+She walks away into the courtyard, the red brick buildings slicing skywards, a courtyard I've seen before. She walks through the shade beneath the trees and her body briefly appears reflected in the puddle where the lights were last time – kids must have been out playing in the mist again – and she takes a right and disappears behind the bright pink leaves of the lonesome tree. My glasses are still on.
   </div>
+
+  <!-- PHOTO INTERLUDE -->
+  <div class="story-interlude">
+    <div class="product-card">
+      <img src="/images/HALLWAY.jpg" class="product-img">
+    </div>
+  </div>
+
+  <div class="story-text">
+
+  More coming soon with the next edition of 
+
+
+
+<h2>GROUP CHAT PHASE</h2>
+
+  </div>
+
+
+
 </section>
