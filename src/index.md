@@ -29,7 +29,7 @@ title: GROUP CHAT PHASE
 <section class="grid-section" id="photography">
 <div class="product-card">
   <img src="/images/ORB.jpg" alt="contrast1" class="product-img">
-  </div>
+  </div> 
 <div class="product-card">
   <img src="/images/BALLS.jpg" alt="contrast1" class="product-img">
 </div>
@@ -703,14 +703,21 @@ She walks away into the courtyard, the red brick buildings slicing skywards, a c
   <!-- PHOTO INTERLUDE -->
   <div class="story-interlude">
     <div class="product-card">
-      <img src="/images/HALLWAY.jpg" class="product-img">
+      <img src="/images/TREEWALLBW.jpg" class="product-img">
     </div>
   </div>
 
   <div class="story-text">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
   More coming soon with the next edition of 
-
 
 
 <h2>GROUP CHAT PHASE</h2>
