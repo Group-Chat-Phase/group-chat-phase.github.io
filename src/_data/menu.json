@@ -1,6 +1,5 @@
 [
   { "name": "Current Issue", "url": "/" },
-  { "name": "Archive", "url": "/" },
   { "name": "About", "url": "/about" },
-  { "name": "Contact", "url": "#contact" }
+  { "name": "Contact", "url": "/contact" }
 ]
