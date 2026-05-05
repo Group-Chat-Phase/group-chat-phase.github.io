@@ -94,7 +94,7 @@ title: GROUP CHAT PHASE
   <img src="/images/CLOUD_MIRROR.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card">
-  <img src="/images/IMG_3251.jpg" alt="contrast1" class="product-img">
+  <img src="/images/enoshimakite1c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
   <img src="/images/2533c.jpg" alt="contrast1" class="product-img">
