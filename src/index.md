@@ -204,7 +204,7 @@ A drop of water or some other unspeakable liquid, marinating the entrails of the
   <!-- PHOTO INTERLUDE -->
   <div class="story-interlude">
     <div class="product-card">
-      <img src="/images/HALLWAY.jpg" class="product-img">
+      <img src="/images/story staircase.jpg" class="product-img">
     </div>
   </div>
 
