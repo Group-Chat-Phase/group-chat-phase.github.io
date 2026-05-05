@@ -66,7 +66,8 @@ const heroOverlay = document.querySelector('.hero-overlay');
 if (heroOverlay) {
   document.body.style.overflow = 'hidden';
   let fakeScroll = 0;
-  const fadeDistance = 600;
+  const isMobile = window.innerWidth <= 768;
+  const fadeDistance = isMobile ? 200 : 600;
   let touchStartY = 0;
 
   function applyFade(delta) {
