@@ -61,14 +61,47 @@
   }, { threshold: 0.3 });
   interludes.forEach(interlude => observer.observe(interlude));
 
-const heroImg = document.querySelector('.hero-img');
+const heroOverlay = document.querySelector('.hero-overlay');
 
-window.addEventListener('scroll', () => {
-  const fadeDistance = window.innerHeight * 0.7; // fade completes after 70vh of scroll
-  const opacity = Math.max(0, 1 - (window.scrollY / fadeDistance));
-  heroImg.style.opacity = opacity;
-});
+let fakeScroll = 0;
+const fadeDistance = window.innerHeight * 0.7;
+let touchStartY = 0;
 
+document.body.style.overflow = 'hidden';
+
+function applyFade(delta) {
+  if (heroOverlay.style.opacity === '0') return;
+
+  fakeScroll += delta;
+  fakeScroll = Math.max(0, fakeScroll);
+
+  const opacity = Math.max(0, 1 - (fakeScroll / fadeDistance));
+  heroOverlay.style.opacity = opacity;
+
+  if (opacity === 0) {
+    document.body.style.overflow = '';
+  }
+}
+
+window.addEventListener('wheel', (e) => {
+  if (document.body.style.overflow === 'hidden') {
+    e.preventDefault();
+    applyFade(e.deltaY);
+  }
+}, { passive: false });
+
+window.addEventListener('touchstart', (e) => {
+  touchStartY = e.touches[0].clientY;
+}, { passive: true });
+
+window.addEventListener('touchmove', (e) => {
+  if (document.body.style.overflow === 'hidden') {
+    e.preventDefault();
+    const delta = touchStartY - e.touches[0].clientY;
+    touchStartY = e.touches[0].clientY;
+    applyFade(delta);
+  }
+}, { passive: false });
 // Protect images
 document.addEventListener('contextmenu', (e) => {
   if (e.target.tagName === 'IMG') {
