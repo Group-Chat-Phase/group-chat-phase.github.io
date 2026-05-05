@@ -3,11 +3,13 @@ layout: layout.njk
 title: GROUP CHAT PHASE
 ---
 
-<img src="/images/HEROPIC.jpg" class="hero-img">
+<div class="hero-overlay">
+  <img src="/images/HEROPIC.jpg" class="hero-img">
+</div>
 
-<div class="hero-text">
-      <h1>METROSE<br>DIGITAL</h1>
-    </div>
+<div class="hero-wrapper">
+  <section class="hero">
+    <h1>METROSE<br>DIGITAL</h1>
   </section>
 </div>
 

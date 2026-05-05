@@ -63,45 +63,37 @@
 
 const heroOverlay = document.querySelector('.hero-overlay');
 
-let fakeScroll = 0;
-const fadeDistance = window.innerHeight * 0.7;
-let touchStartY = 0;
+if (heroOverlay) {
+  document.body.style.overflow = 'hidden';
+  let fakeScroll = 0;
+  const fadeDistance = 600;
+  let touchStartY = 0;
 
-document.body.style.overflow = 'hidden';
-
-function applyFade(delta) {
-  if (heroOverlay.style.opacity === '0') return;
-
-  fakeScroll += delta;
-  fakeScroll = Math.max(0, fakeScroll);
-
-  const opacity = Math.max(0, 1 - (fakeScroll / fadeDistance));
-  heroOverlay.style.opacity = opacity;
-
-  if (opacity === 0) {
-    document.body.style.overflow = '';
+  function applyFade(delta) {
+    fakeScroll = Math.max(0, fakeScroll + delta);
+    const opacity = Math.max(0, 1 - fakeScroll / fadeDistance);
+    heroOverlay.style.opacity = opacity;
+    if (opacity === 0) {
+      document.body.style.overflow = '';
+      heroOverlay.style.display = 'none';
+    }
   }
-}
 
-window.addEventListener('wheel', (e) => {
-  if (document.body.style.overflow === 'hidden') {
+  heroOverlay.addEventListener('wheel', (e) => {
     e.preventDefault();
     applyFade(e.deltaY);
-  }
-}, { passive: false });
+  }, { passive: false });
 
-window.addEventListener('touchstart', (e) => {
-  touchStartY = e.touches[0].clientY;
-}, { passive: true });
-
-window.addEventListener('touchmove', (e) => {
-  if (document.body.style.overflow === 'hidden') {
-    e.preventDefault();
-    const delta = touchStartY - e.touches[0].clientY;
+  heroOverlay.addEventListener('touchstart', (e) => {
     touchStartY = e.touches[0].clientY;
-    applyFade(delta);
-  }
-}, { passive: false });
+  }, { passive: true });
+
+  heroOverlay.addEventListener('touchmove', (e) => {
+    e.preventDefault();
+    applyFade(touchStartY - e.touches[0].clientY);
+    touchStartY = e.touches[0].clientY;
+  }, { passive: false });
+}
 // Protect images
 document.addEventListener('contextmenu', (e) => {
   if (e.target.tagName === 'IMG') {
