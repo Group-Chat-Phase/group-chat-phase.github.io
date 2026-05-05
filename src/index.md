@@ -149,7 +149,7 @@ title: GROUP CHAT PHASE
   <img src="/images/IMG_2461c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_2628c.jpg" alt="contrast1" class="product-img">
+  <img src="/images/lner.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
   <img src="/images/IMG_3222c.jpg" alt="contrast1" class="product-img">
@@ -161,7 +161,7 @@ title: GROUP CHAT PHASE
   <img src="/images/2536c.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
-  <img src="/images/IMG_3286c.jpg" alt="contrast1" class="product-img">
+  <img src="/images/lner0.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card">
   <img src="/images/IMG_3288c.jpg" alt="contrast1" class="product-img">
