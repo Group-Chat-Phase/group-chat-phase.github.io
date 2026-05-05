@@ -346,7 +346,7 @@ I'm looking out the window now, apples in hand. The glasses are still talking, I
   <!-- PHOTO INTERLUDE -->
   <div class="story-interlude">
     <div class="product-card">
-      <img src="/images/leo20.jpg" class="product-img">
+      <img src="/images/leo20.JPG" class="product-img">
     </div>
   </div>
 
@@ -534,7 +534,7 @@ Black bob, olive skin, green eyes, green like bronze in air for too long, small-
   <!-- PHOTO INTERLUDE -->
   <div class="story-interlude">
     <div class="product-card">
-      <img src="/images/leo22.jpg" class="product-img">
+      <img src="/images/leo22.JPG" class="product-img">
     </div>
   </div>
 
