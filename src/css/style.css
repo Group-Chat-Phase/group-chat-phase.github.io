@@ -59,30 +59,17 @@ main {
   padding: 0 40px;
 }
 
-.hero-wrapper {
-  height: 200vh; /* extra scroll room for the pin effect */
-}
-
-.hero {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 10vh;
-  position: sticky;  /* this is the key */
-  top: 0;
-}
-
 .hero-img {
-  position: absolute;
-  top: 10vh;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 40%;
-  max-width: 400px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  opacity: 0;
-  z-index: 0;
+  opacity: 1;
+  z-index: 999; /* sits above everything */
+  pointer-events: none;
+  transition: opacity 0.1s linear;
 }
 
 h1 {

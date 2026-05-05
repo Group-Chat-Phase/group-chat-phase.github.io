@@ -62,14 +62,10 @@
   interludes.forEach(interlude => observer.observe(interlude));
 
 const heroImg = document.querySelector('.hero-img');
-const heroWrapper = document.querySelector('.hero-wrapper');
 
 window.addEventListener('scroll', () => {
-  const wrapperTop = heroWrapper.getBoundingClientRect().top + window.scrollY;
-  const scrollIntoWrapper = window.scrollY - wrapperTop;
-  const fadeDistance = window.innerHeight * 0.8; // fade completes after 80vh of scroll
-
-  const opacity = Math.max(0, Math.min(scrollIntoWrapper / fadeDistance, 1));
+  const fadeDistance = window.innerHeight * 0.7; // fade completes after 70vh of scroll
+  const opacity = Math.max(0, 1 - (window.scrollY / fadeDistance));
   heroImg.style.opacity = opacity;
 });
 
