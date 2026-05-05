@@ -121,14 +121,14 @@ title: GROUP CHAT PHASE
 <div class="product-card">
   <img src="/images/leo13.jpg" alt="contrast1" class="product-img">
 </div>
-<div class="product-card">
-  <img src="/images/leo14.jpg" alt="contrast1" class="product-img">
-</div>
 <div class="product-card full-width">
   <img src="/images/leo8.jpg" alt="contrast1" class="product-img-landscape">
 </div>
 <div class="product-card">
   <img src="/images/leo19.jpg" alt="contrast1" class="product-img">
+</div>
+<div class="product-card">
+  <img src="/images/leo14.jpg" alt="contrast1" class="product-img">
 </div>
 <div class="product-card full-width">
   <img src="/images/2546c.jpg" alt="contrast1" class="product-img-landscape">
@@ -180,6 +180,9 @@ title: GROUP CHAT PHASE
   </div>
 <div class="product-card">
   <img src="/images/IMG_3911c.jpg" alt="contrast1" class="product-img">
+  </div>
+  <div class="product-card">
+  <img src="/images/BUILDINGFADEBW.jpg" alt="contrast1" class="product-img">
   </div>
 <div class="product-card full-width">
   <img src="/images/leo7.jpg" alt="contrast1" class="product-img-landscape">
